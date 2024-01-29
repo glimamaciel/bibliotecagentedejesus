@@ -273,7 +273,7 @@ body::before {
 
     .login_box h2{
         position:relative;
-        left: 23%;
+        left: 21%;
 
     }
 
@@ -287,13 +287,13 @@ body::before {
         margin-bottom: 25px;
         position: relative;
         bottom: 30px;
-        right: 50px;
+        right: 55px;
     }
 
     .login_body button {
         height: 50px;
         width: 50%;
-        left: 30%;
+        left: 28%;
     }
 
     #linha_horizontal {

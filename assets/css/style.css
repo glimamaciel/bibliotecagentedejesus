@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url(../img/background_books.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+body::before {
+    content: '';
+    background-color: rgb(0,0,0,.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo{
+    height: 400px;
+    width: 650px;
+}
+
+.logo img {
+    height: 400px;
+    width: 650px;
+    position: relative;
+    right: 180px;
+    bottom: 50px;
+    
+    
+}
+
+
+.header {
+    padding: 20px 50px;
+    padding-left: 0px;
+    position: relative;
+    z-index: 10;
+}
+
+.login_body {
+    padding: 80px;
+    z-index: 90;
+    position: relative;
+    max-width: 580px;
+    height: 530px;
+    margin-left: 50%;
+    background-color: rgb(32,32,32,1.1);
+    border-radius: 16px;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+    padding-bottom: 0px;
+    bottom: 180px;
+}
+
+.login_body h2 {
+    font-size: 32px;
+    color: #fff;
+    margin-top: 0;
+    position: relative;
+    left: 36%;
+    font-family: "Archivo Black", sans-serif;
+    bottom: 30px;
+}
+
+
+.login_body input {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+.login_body input:hover{
+    background-color: #444;
+}
+
+.input_box {
+    margin-bottom: 25px;
+    position: relative;
+    bottom: 30px;
+}
+
+.login_body button {
+    height: 50px;
+    width: 30%;
+    background-color: #9D2527;
+    color: #fff;
+    border-radius: 50px;
+    position: relative;
+    left: 35%;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    bottom: 15px;
+    font-family: "Archivo Black", sans-serif;
+
+}
+
+.login_body button:hover {
+    background-color: #9c3436;
+    cursor: pointer;
+}
+
+.support {
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    color:#fff;
+    position: relative;
+    top: 23px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+   
+}
+
+
+.support a{
+    text-decoration:underline;
+    color:#fff;
+}
+
+
+.resetpassword a{
+    text-decoration: none;
+}
+
+.ou{
+    height: 50px;
+    width: 100px;
+    position: relative;
+    display:flex;
+    z-index: 90;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+#linha_ou {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 0%;
+    top: 10px;
+}
+
+#linha_horizontal {
+    width: 180px;
+    border: 1px solid;
+    position: relative;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.newuser{
+    height: 80px;
+    width: 350px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    position: relative;
+    bottom: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.newuser a {
+    color: rgb(58, 107, 199);
+}
+
+
+
+@media (min-width:360px) and (max-width:500px){
+    body {
+        padding: 0;
+        margin: 0;
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        background-image: url(../img/background_books.jpg);
+        background-image: cover;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        
+        
+    }
+
+    body::before {
+        content: '';
+        background-color: rgb(0,0,0,.6);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        
+    }
+
+    .header {
+        padding: 20px 50px;
+        padding-left: 0px;
+        padding-right:0px;
+        max-width:100%;
+        position: relative;
+        z-index: 90;
+    }
+
+    .logo{
+        height: 200px;
+        max-width:375px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+
+
+    }
+
+    .logo img {
+        height: 160px;
+        width: 310px;
+        position:absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        
+    }
+
+    .login_body{
+        width: 350px;
+        top: 15%;
+        display: flexbox;
+        position: absolute;
+        bottom: 50px;
+        z-index: 9;
+
+    }
+
+    .login_box h2{
+        position:relative;
+        left: 23%;
+
+    }
+
+    .login_body input {
+        height: 50px;
+        width: 300px;
+    
+    }
+
+    .input_box {
+        margin-bottom: 25px;
+        position: relative;
+        bottom: 30px;
+        right: 50px;
+    }
+
+    .login_body button {
+        height: 50px;
+        width: 50%;
+        left: 30%;
+    }
+
+    #linha_horizontal {
+        width: 100px;
+
+    }
+
+}
